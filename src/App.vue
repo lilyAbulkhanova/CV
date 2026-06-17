@@ -254,9 +254,12 @@ onMounted(() => {
   transform: translateY(-2px);
 }
 
-.social-icon :deep(svg) {
+.social-icon svg {
+  display: block;
   width: 18px;
   height: 18px;
+  fill: currentColor;
+  stroke: currentColor;
 }
 
 /* ─── Right content ──────────────────────────────── */
@@ -629,7 +632,7 @@ onMounted(() => {
     height: 30px;
   }
 
-  .social-icon :deep(svg) {
+  .social-icon svg {
     width: 22px;
     height: 22px;
   }
