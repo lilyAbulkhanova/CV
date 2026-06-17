@@ -258,8 +258,7 @@ onMounted(() => {
   display: block;
   width: 18px;
   height: 18px;
-  fill: currentColor;
-  stroke: currentColor;
+  flex-shrink: 0;
 }
 
 /* ─── Right content ──────────────────────────────── */
